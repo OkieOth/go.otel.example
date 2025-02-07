@@ -1,0 +1,22 @@
+{
+    "dashboard": {
+      "id": null,
+      "title": "OpenTelemetry Metrics",
+      "panels": [
+        {
+          "type": "timeseries",
+          "title": "Example Counter",
+          "targets": [
+            {
+              "expr": "example_counter",
+              "legendFormat": "{{instance}}",
+              "refId": "A"
+            }
+          ]
+        }
+      ],
+      "schemaVersion": 16,
+      "version": 0
+    },
+    "overwrite": true
+}
