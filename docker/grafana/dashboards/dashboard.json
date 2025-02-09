@@ -1,5 +1,6 @@
 {
     "dashboard": {
+      "uid": "unique-dashboard-uid",
       "id": null,
       "title": "OpenTelemetry Metrics",
       "panels": [
